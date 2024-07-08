@@ -16,11 +16,12 @@ body {
 
 header {
     width: 100%;
-    height: auto; /* Adjust height to fit content */
+    height: 100vh; /* Set height to fill the viewport */
     background: url('pjbackground.png') no-repeat center center;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Ensure navbar and hero text stack vertically */
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 20px;
@@ -35,17 +36,6 @@ header {
   
 .navbar a:hover {
     color: #ff4d4d;
-}
-  
-.hero {
-    background: none; /* Remove the background image */
-    color: black;
-    padding: 50px 0;
-    text-align: center;
-}
-  
-.hero img {
-    display: none; /* Remove the image tag if it exists */
 }
   
 .hero-text {
