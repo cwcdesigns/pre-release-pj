@@ -4,56 +4,69 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .navbar {
+.navbar {
     background-color: #111111;
     padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
+
+header {
+    width: 100%;
+    height: auto; /* Adjust height to fit content */
+    background: url('pjbackground.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
   
-  .navbar a {
+.navbar a {
     color: #E0E0E0;
     text-decoration: none;
     margin-right: 20px;
-  }
+}
   
-  .navbar a:hover {
+.navbar a:hover {
     color: #ff4d4d;
-  }
+}
   
-  .hero {
+.hero {
     background: none; /* Remove the background image */
     color: black;
     padding: 50px 0;
     text-align: center;
-  }
+}
   
-  .hero img {
+.hero img {
     display: none; /* Remove the image tag if it exists */
-  }
+}
   
-  .hero-text {
+.hero-text {
     text-align: center;
     padding: 20px;
-  }
+}
   
-  .hero-text h1 {
+.hero-text h1 {
     font-family: 'Poppins', sans-serif;
     color: #E0E0E0;
     font-size: 2em;
     margin-bottom: 10px;
-  }
+}
   
-  .hero-text p {
+.hero-text p {
     font-size: 1.2em;
     color: #E0E0E0;
     margin-bottom: 20px;
-  }
+}
   
-  .order-btn {
+.order-btn {
     background-color: #007BFF;
     color: white;
     padding: 10px 20px;
@@ -61,91 +74,90 @@ body {
     border-radius: 5px;
     font-size: 1.2em;
     display: inline-block;
-  }
+}
   
-  .order-btn:hover {
+.order-btn:hover {
     background-color: #0056b3;
-  }
+}
   
-  .container {
+.container {
     width: 80%;
     margin: 0 auto;
     padding: 20px 0;
-  }
+}
   
-  .center-text {
+.center-text {
     text-align: center;
-  }
+}
   
-  .menu-section {
+.menu-section {
     background-color: #262626;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 50px;
     width: 60%; /* Adjust this value to make the box smaller */
     margin: 0 auto;
-  }
+}
   
-  .menu-section h2 {
+.menu-section h2 {
     font-family: 'Oswald', sans-serif;
     color: #FFD700;
     text-align: center;
     margin-bottom: 10px;
-  }
+}
   
-  .menu-section h3 {
+.menu-section h3 {
     font-family: 'Oswald', sans-serif;
     color: #FFD700;
     margin-bottom: 5px;
     font-weight: bold;
-  }
+}
   
-  .menu-section hr {
+.menu-section hr {
     border: 0;
     border-top: 2px solid #FFD700;
     margin: 10px 0;
-  }
+}
   
-  .menu-item {
+.menu-item {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-  }
+}
   
-  .item-details {
+.item-details {
     flex: 1;
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .menu-item p {
+.menu-item p {
     margin: 0;
-  }
+}
   
-  .menu-item .price {
+.menu-item .price {
     margin-left: 20px;
     align-self: flex-end;
     font-weight: bold;
-  }
+}
   
-  .menu-category h3 {
+.menu-category h3 {
     font-weight: bold;
-  }
+}
   
-  .menu-item .title {
+.menu-item .title {
     font-size: 1.1em; /* Adjust the size as needed */
     font-weight: bold;
-  }
+}
   
-  .menu-item .description {
+.menu-item .description {
     font-size: 0.8em; /* Smaller size for descriptions */
     line-height: 1.2; /* Adjust line-height if needed */
-  }
+}
   
-  footer {
+footer {
     background-color: #111111;
     padding: 20px;
     color: white;
     text-align: center;
-  }
-                  
+}
